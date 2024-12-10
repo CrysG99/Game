@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvhlixsic13ch"]
+
+[ext_resource type="PackedScene" uid="uid://cmaydjswbmkn8" path="res://player.tscn" id="1_2xpu0"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_2xpu0")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
