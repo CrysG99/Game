@@ -1,2 +1,5 @@
-# Terminoppgave_H-stVG2
- yes
+# Berry Bound
+ 
+Welcome to Berry Bound
+
+This game is a 2D platformer
